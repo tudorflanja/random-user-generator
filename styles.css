@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px; /* Adaugă spațiu în interiorul containerului. */
+  border-radius: 8px; /* Colțurile sunt rotunjite. */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adaugă o umbră pentru un efect tridimensional subtil. */
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+/* Elimină marginea implicită a fieldset-ului și adaugă spațiu sub el. */
+fieldset {
+  margin-bottom: 15px;
+  border: none;
+}
+
+label {
+  display: block; /* Fiecare etichetă este afișată pe un rând separat */
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Adaugă spațiu între formular și div-ul unde vor fi afișate rezultatele utilizatorilor. */
+#user-results {
+  margin-top: 20px;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+  }
+  
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #007BFF;
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Proprietatea animation aplică rotația definită în @keyframes spin. */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  #loading p {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+  }
+
+  #user-results {
+    margin-top: 20px;
+  }
+  
+  .user-card {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+  }
+  
+  .user-card button:hover {
+    background-color: #0056b3;
+  }
+  
