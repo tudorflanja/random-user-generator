@@ -28,9 +28,3 @@ This is a responsive web application that allows users to dynamically generate a
 
 Data is fetched from:  
 [https://randomuser.me/api](https://randomuser.me/api)
-
-## 🔧 Setup
-
-To run locally:
-1. Clone the repo
-2. Open `index.html` in your browser
