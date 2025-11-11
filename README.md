@@ -25,9 +25,10 @@ This project implements a dynamic, responsive web application for generating and
 ---
 
 ## 📂 Project Structure  
-- `index.html` – Primary HTML layout and form  
-- `styles.css` – Styling for the form, layout, animations, and user cards  
+- `README.md` – Project documentation
+- `index.html` – Primary HTML layout and form
 - `script.js` – Handles validation, fetch logic, error display, and dynamic UI updates  
+- `styles.css` – Styling for the form, layout, animations, and user cards  
 
 ---
 
@@ -68,3 +69,4 @@ The API supports:
 
 ## 📝 Conclusion  
 The Random User Generator Web App demonstrates how to build a customizable data-driven frontend using public APIs. It highlights good practices in asynchronous JavaScript, user input validation, dynamic rendering, and responsive UI design.
+
