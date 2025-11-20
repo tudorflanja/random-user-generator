@@ -70,3 +70,6 @@ The API supports:
 ## 📝 Conclusion  
 The Random User Generator Web App demonstrates how to build a customizable data-driven frontend using public APIs. It highlights good practices in asynchronous JavaScript, user input validation, dynamic rendering, and responsive UI design.
 
+---
+
+This project was completed as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
