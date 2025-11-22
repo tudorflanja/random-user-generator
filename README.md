@@ -72,4 +72,4 @@ The Random User Generator Web App demonstrates how to build a customizable data-
 
 ---
 
-This project was completed as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
+This project was completed for the User Interface Design course, as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
